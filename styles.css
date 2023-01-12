@@ -1,0 +1,88 @@
+.calculator {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+  }
+  
+  .display {
+    background-color: #3f3f3f;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 36px;
+    min-height: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .keypad {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .keypad button {
+    width: calc(25% - 20px);
+    padding: 20px;
+    margin: 10px;
+    background-color: #3f3f3f;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+    border: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .keypad button:hover {
+    background-color: #262626;
+    cursor: pointer;
+  }
+  
+  .keypad .operator {
+    background-color: #262626;
+  }
+  
+  /* Media query for screens smaller than 600px */
+  @media (max-width: 600px) {
+    .calculator {
+      width: 90%;
+      font-size: 16px;
+    }
+    .keypad button {
+      width: calc(33.33% - 20px);
+      font-size: 20px;
+    }
+    .display {
+      font-size: 28px;
+      .display {
+        min-height: 50px;
+        }
+        }
+        
+        /* Media query for screens smaller than 480px */
+        @media (max-width: 480px) {
+        .calculator {
+        width: 100%;
+        }
+        .keypad button {
+        width: calc(50% - 20px);
+        font-size: 18px;
+        }
+        .display {
+        font-size: 24px;
+        min-height: 40px;
+        }
+        }
+  h2 {
+    color: rgb(4, 84, 84);
+    text-align: left;
+    text-transform: smallcase;
+    font-size: 2em;
+    margin: 1em 0;
+    padding: 0.2em;
+  }
+
+
+    
